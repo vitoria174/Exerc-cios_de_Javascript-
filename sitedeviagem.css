@@ -1,0 +1,116 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+header{
+  margin:auto;
+  width:1000px;
+  height:450px;
+  background:url(../imagens/paisagem.png) no-repeat;
+}
+.logo{
+  width:1000px;
+  height:70px;
+  float:right;
+  color:white;
+  background:rgb(3,65,83);
+}
+.logo-marca{
+  font:20px "Sans-serif" bolder;
+  margin-left:20px;
+  line-height: 70px;
+  display:inline-block;
+}
+.links ul{
+  
+  list-style:none;
+}
+.links ul li {
+  height:10px;
+  width:100px;
+  float:left;
+  text-align: center;
+  position:relative;
+  bottom:50px;
+  left:500px;
+  padding:0px;
+  display:block;
+}
+.links a{
+  line-height: 10px;
+  padding:10px;
+  text-decoration: none;
+  color:rgb(150,163,171);
+}
+.links a:hover{
+  background: rgb(103,131,145);
+  color:rgb(91,95,99);
+  
+}
+#passagem .links .passagem a{
+  background:rgb(5,97,116);
+  color: rgba(21,21,21,0.954);
+}
+nav{
+  margin:auto;
+  width:990px;
+  height:100px;
+  background: rgb(3,65,83);
+  
+}
+#navegacao {
+  color:rgb(234,237,240);
+  padding:10px;
+  line-height:30px;
+}
+#navegacao .texto{
+  height:25px;
+  width:220px;
+  text-align: center;
+  
+}
+#botao{
+  height: 30px;
+  width: 80px;
+  background:rgb(103,131,145);
+  border: 1px solid rgb(59,62,69);
+  color:rgb(245,244,244);
+  border-radius: 5px;
+  
+}
+.selecao{
+  height: 30px;
+  width:100px;
+  text-align: center;
+}
+main{
+  margin:auto;
+  width:1000px;
+  height: 600px;
+  background:rgba(241,243,244,0.921);
+  
+}
+#compra-passagem{
+  float:left;
+  
+}
+#compra-passagem .ofertas{
+  margin:22px;
+  height:100px;
+  width: 200px;
+  border: 2px solid rgb(42,40,40);
+  text-align: right;
+  line-height:32px;
+}
+.ofertas h3{
+  color:rgb(3,65,83);
+}
+.preco{
+  color:rgba(99,188,43,0.921);
+}
+footer{
+  margin:auto;
+  width:1000px;
+  height:770px;
+  background:rgb(3,65,83);
+}
